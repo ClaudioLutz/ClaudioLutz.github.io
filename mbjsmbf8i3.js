@@ -23,12 +23,12 @@ var aw=null;var aF=aA;while(aF){if(aF.nodeName&&aF.nodeName.toLowerCase()=="li")
 };L.closeHamburgerMenu=function(){n(L,[],"slide-in",true);n(L,[],"slide-out",false);L.addEventListener("animationend",L.closeanimationended,false);L.addEventListener("webkitAnimationEnd",L.closeanimationended,false)};L.openHamburgerMenu=function(){if(!ae&&!L.style.top){var aH=E(R);L.style.cssText=L.style.cssText+("; top: "+(aH.y+aH.h)+"px !important")}L.style.display="block";p=L;h();L.setLastVisibleItemClass()};L.setLastVisibleItemClass=function(){function aI(aK,aJ,aL){while(aK){if(aK.nodeName){if(aJ){if(aK.style&&aK.style.display=="none"){aJ=false}}aL(aK,aJ)}aI(aK.firstChild,aJ,aL);aK=aK.nextSibling}}var aH=null;aI(L,true,function(aK,aJ){if(aK.nodeName.toLowerCase()=="li"){n(aK,["a"],"last_visible_item",true);if(aJ){aH=aK}}});if(aH){n(aH,["a"],"last_visible_item",false)}};au.onclick=function(){L.closeHamburgerMenu();return false};aB.onclick=function(){return false}}}if(!ax){var ay=null;if(window.onload){ay=window.onload}window.onload=function(){v(aD);if(ay){ay()}};return false}var aC=function(){ab=null;
 var aJ=document.getElementById(d+"ebul_table");var aL=document.getElementById(d+"ebul_wrapper");var aI=true;var aK=-99;if(i&&ai!=-1){if(ai==0||A()<ai){if(!T){z(true)}}else{if(T){z(false)}}}if(aJ&&aL){if((f&&A()>f+5)||(U&&X()>U+5)){if(T){z(false)}}var aH=aJ.firstChild;while(aH){if(aH.nodeName.toLowerCase()=="li"){if(aK!=-99&&aK!=aH.offsetTop){aI=false}aK=aH.offsetTop}aH=aH.nextSibling}if(i&&ai==-1){if(!aI&&!T){f=A();U=X();z(true)}}else{if(aI){n(aL,[],"centeritems",true)}else{if(!T){n(aL,[],"centeritems",false)}}}}};g=window.onresize;aC();window.onresize=function(){if(g!=null&&typeof(g)=="function"&&!EditMode){g()}if(ab==null){ab=setTimeout(aC,50)}if(EditMode&&EBMMMenu.onEditResize){EBMMMenu.onEditResize()}};if(EditMode){h()}if(EditMode){this.openSubmenuInstantly=J}};var m=null;var p=0;var e=null;var at=null;var ab=null;var g=null;var V=null;var R=null;var L=null;var W={init:v,hide:ap,isHamburger:function(){return T}};return W}();EBMMMenu.init({
  MenuAlpha: 0,
- FadeEffect: true,
- ScaleEffect: 0,
+ FadeEffect: false,
+ ScaleEffect: 2,
  MenuDirection: 0,
  MenuName: "mbf8i3",
  DefaultDirectionX: 1,
- HamburgerEnabled: true,
+ HamburgerEnabled: false,
  HamburgerFromWidth: -1,
  HamburgerAtPageTop: true
 });
