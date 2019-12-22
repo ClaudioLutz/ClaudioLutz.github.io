@@ -164,11 +164,10 @@ h1 {
   width: 50%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .jumbotron h1 {
     font-size: 5.7rem;
-  }
-  
+  }  
   .carousel-caption h1{
     font-size:25px;
   }
@@ -182,9 +181,18 @@ h1 {
     display: none;
     width: 100%;
   }
+  .btn-primary{
+    width: 100%;
+    overflow: hidden;
+    font-size: smaller;
+  }
+
   .row{
     min-width: 100%;
     border: solid 2px #399bd1; 
+  }
+  #img-top{
+    display: none;
   }
 
 
@@ -194,8 +202,30 @@ h1 {
   }
   .btn-primary{
     width: 100%;
+    overflow: hidden;
   }
 
+  iframe{
+    display: none;
+  }
+  #email-button{
+    display: block;
+    width: 100%;
+  }
+}
+}
+@media only screen and (max-width: 400px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+  .btn-primary{
+    width: 100%;
+    overflow: hidden;
+    font-size: small;
+  }
+  .image-container{
+    height: fit-content;
+  }
   iframe{
     display: none;
   }
@@ -271,7 +301,7 @@ h1 {
   margin-bottom: 0rem;
 }
 
-.image-container {
+#image-top{
   height: 13.5rem;
   overflow: hidden;
 }
