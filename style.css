@@ -62,7 +62,7 @@ iframe{
   margin-top: 120px;
 }
 #image-top{
-  height: 13.5rem;
+  height: 17.5rem;
   overflow: hidden;
 }
 /* Bootstrap Overrides */
@@ -219,7 +219,7 @@ h1 {
   }
 
 }
-
+}
 @media only screen and (max-width: 400px) {
   .jumbotron h1 {
     font-size: 4rem;
@@ -243,6 +243,7 @@ h1 {
     height: 10rem;
   }
 
+}
 }
 @media only screen and (max-width: 300px) {
 
