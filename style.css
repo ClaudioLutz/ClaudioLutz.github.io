@@ -162,7 +162,9 @@ border: 0px solid #000000;
   transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
-  box-shadow: #000;
+  -webkit-box-shadow: -13px 3px 73px 22px rgba(0,0,0,0.75);
+  -moz-box-shadow: -13px 3px 73px 22px rgba(0,0,0,0.75);
+  box-shadow: -13px 3px 73px 22px rgba(0,0,0,0.75);
 }
 
 /* Slick Overrides */
