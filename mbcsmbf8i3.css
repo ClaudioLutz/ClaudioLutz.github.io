@@ -1,10 +1,14 @@
 /* Created with Easy CSS Menu */
 
+header {
+
+
+}
 #mbf8i3ebul_wrapper {
   padding: 5px;
   border-style: solid;
   border-color: #3A3C43;
-  border-width: 1px 0 1px 0;
+  border-width: 0px 0 0px 0;
   border-radius: 0;
   background-color: transparent;
   box-shadow: 0 -1px 2px 0 #FFFFFF inset;
@@ -17,7 +21,11 @@
   background-image: linear-gradient(top, #787878 0%, #5D5D5D 100%);
   background-size: 100% 100%;
   font-size: 0;
-  line-height: 0;
+  line-height: 0;  
+  position: relative; 
+  text-align: center;
+  z-index: 10;
+  height: 3vh;
 }
 
 #mbf8i3ebul_wrapper.quirks {
@@ -30,14 +38,16 @@
 }
 
 #mbf8i3ebul_table {
-  margin: 0px;
-  margin-bottom: -7px;
-  margin-right: -7px;
+  position: fixed;
+  margin-left: -250px;
+  margin-bottom: ;
   padding: 0;
   line-height: 0px;
   font-size: 0px;
   display: inline-block;
   width: auto;
+  
+
 }
 
 #mbf8i3ebul_table li a {

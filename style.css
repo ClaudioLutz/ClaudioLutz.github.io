@@ -1,6 +1,11 @@
 
 /* Universal Styles */
-
+#page-wrap {
+  position: relative;
+  width: 1366px;
+  margin: 0px auto; 
+  width: 95%;
+}
 html {
   font-size: 14px;
   background: rgb(93,93,93);
@@ -71,8 +76,8 @@ img {
     -webkit-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
     -moz-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
     box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
 }
 
 li{
