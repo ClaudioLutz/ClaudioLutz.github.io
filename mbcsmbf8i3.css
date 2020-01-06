@@ -1,9 +1,3 @@
-/* Created with Easy CSS Menu */
-
-header {
-
-
-}
 #mbf8i3ebul_wrapper {
   padding: 5px;
   border-style: solid;
@@ -25,7 +19,7 @@ header {
   position: relative; 
   text-align: center;
   z-index: 10;
-  height: 3vh;
+  height: 40px;
 }
 
 #mbf8i3ebul_wrapper.quirks {
