@@ -2,9 +2,12 @@
 /* Universal Styles */
 #page-wrap {
   position: relative;
-  width: 1366px;
+  width: 13px;
   margin: 0px auto; 
   width: 95%;
+  z-index: ;
+  margin-top: -100px;
+  
 }
 html {
   font-size: 14px;
@@ -54,6 +57,9 @@ h3 {
 
 img {
   width: 100%;
+}
+#login h1{
+  text-align: center;
 }
 
 .row{

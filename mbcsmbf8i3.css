@@ -1,25 +1,19 @@
 #mbf8i3ebul_wrapper {
-  padding: 5px;
+  padding: 0px;
   border-style: solid;
   border-color: #3A3C43;
   border-width: 0px 0 0px 0;
   border-radius: 0;
   background-color: transparent;
-  box-shadow: 0 -1px 2px 0 #FFFFFF inset;
+  box-shadow: 0 -1px 0px 0 #FFFFFF inset;
   border-collapse: separate;
-  background-image: url('wrapper_bg1.png');
-  background-repeat: repeat-x;
-  background-image: -moz-linear-gradient(top, #787878 0%, #5D5D5D 100%);
-  background-image: -webkit-linear-gradient(top, #787878 0%, #5D5D5D 100%);
-  background-image: -ms-linear-gradient(top, #787878 0%, #5D5D5D 100%);
-  background-image: linear-gradient(top, #787878 0%, #5D5D5D 100%);
-  background-size: 100% 100%;
+  
   font-size: 0;
   line-height: 0;  
   position: relative; 
   text-align: center;
   z-index: 10;
-  height: 40px;
+  height: 0px;
 }
 
 #mbf8i3ebul_wrapper.quirks {
@@ -34,7 +28,7 @@
 #mbf8i3ebul_table {
   position: fixed;
   margin-left: -250px;
-  margin-bottom: ;
+  margin-top: 5px;
   padding: 0;
   line-height: 0px;
   font-size: 0px;
