@@ -11,8 +11,7 @@
 }
 html {
   font-size: 14px;
-  background: rgb(93,93,93);
-background: linear-gradient(90deg, rgba(93,93,93,1) 0%, rgba(25,25,28,1) 56%, rgba(102,102,102,1) 100%);
+  background:#333333;
 }
 
 img{
@@ -24,11 +23,10 @@ border: 0px solid #000000;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.4;
   margin-top: 0px;
-  background: rgb(93,93,93);
-  background: linear-gradient(90deg, rgba(93,93,93,1) 0%, rgba(25,25,28,1) 56%, rgba(102,102,102,1) 100%);
+  background: #333333;
 }
 
 p{
@@ -64,9 +62,9 @@ img {
 
 .row{
   grid-template-columns: repeat(auto-fill, minmax(2200px, 1fr));
-  background-color: rgb(73, 73, 73);
+  background-color: #333333;
   min-width: 10%;
-  background: rgb(25,25,28);
+  background: #333333;
   background: linear-gradient(90deg, rgba(25,25,28,1) 0%, rgba(51,51,51,1) 50%, rgba(0,0,0,1) 100%);
   -webkit-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
   -moz-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
@@ -77,13 +75,8 @@ img {
     margin-top: 1rem;
     margin-bottom: 0px;
     border-top: 5px solid whitesmoke;
-    background: rgb(25,25,28);
-    background: linear-gradient(90deg, rgba(25,25,28,1) 0%, rgba(51,51,51,1) 50%, rgba(0,0,0,1) 100%);
-    -webkit-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
-    -moz-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
-    box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
+    background: #333333;
+
 }
 
 li{
@@ -92,8 +85,7 @@ li{
 }
 
 #über-mich{
-  background: rgb(93,93,93);
-background: linear-gradient(90deg, rgba(93,93,93,1) 0%, rgba(25,25,28,1) 56%, rgba(102,102,102,1) 100%);;
+  background: #333333;
   margin-top: 120px;
 }
 
@@ -299,8 +291,7 @@ h1 {
 
 .help {
   
-  background: rgb(93,93,93);
-background: linear-gradient(90deg, rgba(93,93,93,1) 0%, rgba(25,25,28,1) 56%, rgba(102,102,102,1) 100%);
+  background:#333333;
   text-align: center;
 }
 
