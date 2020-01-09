@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 400;
   color: honeydew;
 }
 
@@ -69,6 +69,10 @@ img {
   -webkit-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
   -moz-box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
   box-shadow: inset -55px -32px 220px -20px rgba(163,163,163,1);
+}
+.row h2{
+
+  font-weight: lighter;
 }
 
 .container{
@@ -158,8 +162,9 @@ border: 0px solid #000000;
 }
 
 h1 {
-  font-family: "Monoton", sans-serif;
   font-size: 50px;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;     
 }
 
 .carousel-caption p {
@@ -179,15 +184,19 @@ h1 {
     font-size: 5.7rem;
   }  
   .carousel-caption h1{
-    font-size:25px;
-  }
+    font-size:55px;
+    color: #fff;
+    text-shadow: 3px 0 0 #000, 0 -2px 0 #000, 0 3px 0 #000, -2px 0 0 #000;
+}
   .carousel-caption p{
     font-size:25px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;    
   }
   .btn-primary{
     width: 100%;
     overflow: hidden;
-    font-size: smaller;
+    font-size: larger;
   }
   .row{
     min-width: 10%;
@@ -197,6 +206,19 @@ h1 {
     height: 18rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .carousel-caption h1{
+    font-size:40px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  .carousel-caption p{
+    font-size:23px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -2px 0 #000, 0 1px 0 #000, -2px 0 0 #000;    
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .jumbotron h1 {
@@ -227,6 +249,16 @@ h1 {
     -ms-transition: transform .5s,;
     -o-transition: transform .5s,;
   }
+  .carousel-caption h1{
+    font-size:30px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  .carousel-caption p{
+    font-size:19px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -2px 0 #000, 0 1px 0 #000, -2px 0 0 #000;    
+  }
 }
 
 @media only screen and (max-width: 445px) {
@@ -254,12 +286,35 @@ h1 {
   #mbf8i3ebul_wrapper{
     display: none;
   }
+  header{
+    display: none;
+  }
+  .carousel-caption h1{
+    font-size:25px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  .carousel-caption p{
+    font-size:15px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -2px 0 #000, 0 1px 0 #000, -2px 0 0 #000;    
+  }
 }
 
 @media only screen and (max-width: 300px) {
 
   #image-top{
     height: 8rem;
+  }
+  .carousel-caption h1{
+    font-size:20px;
+    color: #fff;
+    text-shadow: unset;
+}
+  .carousel-caption p{
+    font-size:11px;
+    color: #fff;
+    text-shadow: unset; 
   }
 }
 
