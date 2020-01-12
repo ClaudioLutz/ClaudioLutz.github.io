@@ -22,6 +22,9 @@
   margin-bottom: 7px;
   margin-right: 7px;
 }
+.button{
+  display: none;
+}
 
 #mb8d4rebul_wrapper.quirks #mb8d4rebul_table ul li {
   width: 100%;
@@ -242,6 +245,9 @@
   #mb8d4rebul_table{ 
   margin-left: -300px;
 }
+ .button{
+   display: none;
+ }
 }
 @media screen and (max-width: 573px) {
   #mb8d4rebul_table{ 
