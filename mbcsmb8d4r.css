@@ -20,7 +20,7 @@
 
 #mb8d4rebul_wrapper.quirks {
   margin-bottom: 7px;
-  margin-right: 7px;
+  margin-right: 0px;
 }
 .button{
   display: none;
@@ -28,6 +28,7 @@
 
 #mb8d4rebul_wrapper.quirks #mb8d4rebul_table ul li {
   width: 100%;
+  background-color: azure;
 }
 
 #mb8d4rebul_table {
