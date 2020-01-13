@@ -14,13 +14,14 @@
   line-height: 0;  
   position: relative; 
   text-align: center;
-  z-index: 10;
+  z-index: 20;
   height: 0px;
 }
 
 #mb8d4rebul_wrapper.quirks {
   margin-bottom: 7px;
   margin-right: 0px;
+  z-index: 20;
 }
 .button{
   display: none;
@@ -29,9 +30,11 @@
 #mb8d4rebul_wrapper.quirks #mb8d4rebul_table ul li {
   width: 100%;
   background-color: azure;
+  z-index: 20;
 }
 
 #mb8d4rebul_table {
+  z-index: 20;
   top: 0;
   position: fixed;
   margin-left: -370px;
@@ -44,6 +47,7 @@
 }
 
 #mb8d4rebul_table li a {
+  z-index: 20;
   line-height: 19px;
   font-size: 16px;
   font-family: Arial,sans-serif;
