@@ -233,6 +233,9 @@ h1 {
     font-size: 30px;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
+  footer h3{
+    position: relative;
+  }
 }
 @media only screen and (max-width: 800px) {
   .carousel-caption h1{

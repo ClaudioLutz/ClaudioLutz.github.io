@@ -1,7 +1,7 @@
 {
   "particles":{
     "number":{
-      "value":500
+      "value":150
     },
     "color":{
       "value":"#399bd1"
@@ -9,7 +9,7 @@
     "shape":{
       "type":"circle",
       "stroke":{
-        "width":1,
+        "width":2,
         "color":"#399bd1"
       },
       "image":{
