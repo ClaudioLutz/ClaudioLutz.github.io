@@ -1,16 +1,16 @@
 {
   "particles":{
     "number":{
-      "value":100
+      "value":500
     },
     "color":{
-      "value":"#fff"
+      "value":"#399bd1"
     },
     "shape":{
       "type":"circle",
       "stroke":{
         "width":1,
-        "color":"#ccc"
+        "color":"#399bd1"
       },
       "image":{
         "src":"http://www.iconsdb.com/icons/preview/white/contacts-xxl.png"
@@ -26,7 +26,7 @@
     },
     "size":{
       "value": 5,
-      "random":false,
+      "random":true,
       "anim":{
         "enable": false,
         "speed":30
@@ -35,7 +35,7 @@
     "line_linked":{
       "enable": true,
       "distance": 120,
-      "color":"#fff",
+      "color":"#399bd1",
       "width":1
     },
     "move":{
