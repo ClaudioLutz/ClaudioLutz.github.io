@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    var nav   = document.querySelector('#mb8d4rebul_table ');
+    var nav   = document.querySelector('#mb8d4rebul_table');
     if(!nav) return true;
 
     var navHeight   = 0,

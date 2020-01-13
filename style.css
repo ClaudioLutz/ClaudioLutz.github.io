@@ -2,7 +2,6 @@
 /* Universal Styles */
 #page-wrap {
   top: 0px;
-  z-index: 10;
   
 }
 html {
@@ -56,18 +55,9 @@ img {
   text-align: center;
 }
 canvas{
-
-  z-index: 5;
   position: fixed;
   opacity: 10%;
 }
-#particles-js{  
-  height:1vh;
-}
-#top-row{
-  margin-top: 1000px;
-}
-
 .row{
   grid-template-columns: repeat(auto-fill, minmax(2200px, 1fr));
   background-color: #333333;
@@ -88,9 +78,7 @@ canvas{
     margin-bottom: 0px;
     border-top: 5px solid whitesmoke;
     background: #333333;
-}
-#top-row{
-  margin-top: 190px;
+
 }
 
 li{
@@ -99,15 +87,9 @@ li{
 }
 
 #über-mich{
-  left: 50%;
-  transform: translateX(-50%);
-  position: fixed;
   background: #333333;
-  z-index: 10;
   width: auto;
-  margin-top: 50px;
-  overflow-y: scroll;
-  height: 100%;
+  margin-top: 0px;
 }
 .featured-project {
   margin-top: -9rem; /* To account for relatively positioned button */
@@ -205,15 +187,7 @@ h1 {
   margin: 0 auto;
 }
 
-
-
 @media only screen and (min-width: 982px) {
-  #über-mich{
-    margin-top: 50000px !important;
-  }  
-  #top-row{
-    margin-top: 120px;
-  }
   .jumbotron h1 {
     font-size: 5.7rem;
   }  
@@ -244,9 +218,6 @@ h1 {
   }
 }
 @media only screen and (max-width: 800px) {
-  #top-row{
-    margin-top: 180px;
-  }
   .carousel-caption h1{
     font-size:40px;
     color: #fff;
@@ -264,12 +235,6 @@ h1 {
 
 
 @media only screen and (max-width: 600px) {
-  #top-row{
-    margin-top: 200px;
-  }
-  #über-mich{
-    margin-top: 0px;
-  }
   .jumbotron h1 {
     font-size: 4rem;
   }
@@ -314,9 +279,8 @@ h1 {
 }
 
 @media only screen and (max-width: 445px) {
-
   .featured-project {
-    margin-top: -14rem; 
+    margin-top: -14rem; /* To account for relatively positioned button */
   }
   .jumbotron h1 {
     font-size: 4rem;
@@ -339,7 +303,12 @@ h1 {
   #image-top{
     height: 10rem;
   }
-
+  #mbf8i3ebul_wrapper{
+    display: none;
+  }
+  header{
+    display: none;
+  }
   .carousel-caption h1{
     font-size:25px;
     color: #fff;
@@ -384,7 +353,7 @@ h1 {
 
 .featured-project .image-container {
   height: 17rem;
-  margin-top: 0px;
+  margin-top: 0px; /* To match bootstrap header margins */
 }
 
 .row{
@@ -416,3 +385,7 @@ h1 {
   
 }
 
+#particles-js{
+  
+  height:200px;
+}
