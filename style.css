@@ -59,12 +59,14 @@ canvas{
 
 .row {
   z-index: 100;
-  position: relative;
   grid-template-columns: repeat(auto-fill, minmax(2200px, 1fr));
   background-color: #333;
   min-width: 10%;
   background: #333;
   box-shadow: inset -55px -32px 220px -20px #505050
+}
+.row-relative{
+  position: relative;
 }
 
 .row h2 {
@@ -72,6 +74,7 @@ canvas{
 }
 
 .container {
+  position: static;
   margin-top: 1rem;
   margin-bottom: 0;
   border-top: 5px solid #f5f5f5;
@@ -108,7 +111,9 @@ li {
 }
 
 h2.col-xs-12 {
-  background-color: #000
+  background-color: #000;
+  position: static;
+    
 }
 
 .image-container {
@@ -189,10 +194,14 @@ h1 {
 }
 
 #vorkontakt {
-  position: relative;
-  background: #333;
-  box-shadow: inset -55px -32px 220px -20px #505050
+  position: static;
+  background: black;
+
 }
+iframe {
+  position: relative;
+}
+
 @media only screen and (max-width:1220px) {
   #image-top {
     height: 15rem
@@ -238,6 +247,9 @@ h1 {
   .featured-project{
    margin-top: 10rem;
   }
+  iframe{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width:685px) {
@@ -253,11 +265,10 @@ h1 {
       overflow: hidden
   }
   iframe {
-      display: none
+ 
+    width: 100%;
   }
-  #vorkontakt {
-      display: none
-  }
+
   #image-top {
       height: 20rem
   }
@@ -304,9 +315,7 @@ h1 {
   .image-container {
       height: fit-content
   }
-  iframe {
-      display: none
-  }
+
   #email-button {
       display: block;
       width: 100%
