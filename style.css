@@ -4,7 +4,7 @@
 
 html {
   font-size: 14px;
-  background: #333
+  background: black;
 }
 
 img {
@@ -21,7 +21,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.4;
   margin-top: 0;
-  background: #333
+  background: black;
 }
 
 p {
@@ -63,13 +63,21 @@ canvas{
 .row {
   z-index: 100;
   grid-template-columns: repeat(auto-fill, minmax(2200px, 1fr));
-  background-color: #333;
+  background-color: black;
   min-width: 10%;
-  background: #333;
+  background: black;
   box-shadow: inset -55px -32px 220px -20px #505050
 }
 .row-relative{
   position: relative;
+}
+
+.text-relative{
+  position: relative;
+  background: #333;
+  box-shadow: inset -55px -32px 220px -20px #505050;
+  height: 200px;
+  padding-left: 10px;
 }
 
 .row h2 {
@@ -95,7 +103,7 @@ li {
 }
 
 #über-mich {
-  background: #333;
+  background: black;
   width: auto;
   margin-top: 0;
   z-index: 100
@@ -262,6 +270,26 @@ iframe {
   iframe{
     width: 100%;
   }
+  .image-container{
+    border: initial;
+  }
+  
+  img{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .carusel-img{
+    margin-left:0px;
+  }
+  #image-top img{
+    width: 100%;
+  }
+  .text-relative{
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin-left: 10%;    
+  }
 }
 
 @media only screen and (max-width:685px) {
@@ -272,6 +300,9 @@ iframe {
 
 
 @media only screen and (max-width:600px) {
+  .image-container{
+    border: initial;
+  }  
   .btn-primary {
       width: 100%;
       overflow: hidden
@@ -395,7 +426,7 @@ iframe {
 }
 
 .help {
-  background: #333;
+  background: black;
   text-align: center
 }
 
