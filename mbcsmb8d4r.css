@@ -214,10 +214,10 @@
     z-index: 5000
 }
 
-@media screen and (max-width:754px) {
+@media screen and (max-width:751px) {
     #mb8d4rebul_table {
-        margin-left: -300px;
-        width: 90%;
+        margin-left: -250px;
+        width: 60%;
     }
     .button {
         display: none
@@ -225,9 +225,7 @@
 }
 
 @media screen and (max-width:573px) {
-    #mb8d4rebul_table {
-        margin-left: -170px
-    }
+
     #über-mich {
         margin-top: 150px
     }
@@ -235,7 +233,7 @@
 
 @media screen and (max-width:500px) {
     #mb8d4rebul_table {
-        margin-left: -220px
+        margin-left: -200px
     }
 }
 
