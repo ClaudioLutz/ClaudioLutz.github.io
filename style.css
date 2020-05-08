@@ -274,7 +274,11 @@ iframe {
         border: initial
     }
 }
-
+@media only screen and (max-width:642px) {
+    .featured-project {
+        margin-top: 16rem
+    }
+}
 @media only screen and (max-width:600px) {
     .image-container {
         border: initial
@@ -319,13 +323,15 @@ iframe {
         height: 15rem
     }
 }
+@media only screen and (max-width:500px) {
+    .featured-project {
+        margin-top: 20rem
+    }
+}
 
 @media only screen and (max-width:445px) {
     .image-container {
         border: initial
-    }
-    .featured-project {
-        margin-top: 9rem
     }
     .btn-primary {
         font-size: small

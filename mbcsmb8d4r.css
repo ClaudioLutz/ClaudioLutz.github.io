@@ -216,7 +216,7 @@
 
 @media screen and (max-width:751px) {
     #mb8d4rebul_table {
-        margin-left: -250px;
+        margin-left: -50%;
         width: 60%;
     }
     .button {
@@ -233,23 +233,17 @@
 
 @media screen and (max-width:500px) {
     #mb8d4rebul_table {
-        margin-left: -200px
+        margin-left: -50%;
     }
 }
 
 @media screen and (max-width:400px) {
-    #mb8d4rebul_table {
-        margin-left: -180px
-    }
     #über-mich {
         margin-top: 230px
     }
 }
 
 @media screen and (max-width:350px) {
-    #mb8d4rebul_table {
-        margin-left: -120px
-    }
     #über-mich {
         margin-top: 300px
     }
