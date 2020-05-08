@@ -8,7 +8,7 @@ html {
 }
 
 img {
-    background-color: #dadee0;
+    
     border-radius: 10px 10px 10px 10px;
     border: 0 solid #000
 }
@@ -55,10 +55,10 @@ canvas {
 }
 
 .row {
-    z-index: 100;
-    background-color: #000;
+    z-index: 100;    
     min-width: 10%;
-    background: #000
+
+
 }
 
 .row-relative {
@@ -76,7 +76,8 @@ canvas {
 }
 
 .col-xs-6 {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row h2 {
